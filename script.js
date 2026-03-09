@@ -14,27 +14,29 @@ const SHORTCUT_TIMEOUT = 1500;
 // but intended to be used with just regular latin letters.
 const MASTER_MAP = [
     {
-        "groupName": "General",
+        "groupName": "Admin",
         "subGroups": [
             {
-                "groupName": "Nile",
+                "groupName": "Microsoft",
                 "items":[
-                    {"name": "NetSuite", "shortcutKey": "s", "url": "https://6751627.app.netsuite.com/app/center/card.nl?sc=-29&whence="},
-                    {"name": "Infor", "shortcutKey": "x", "url": "https://mingle-portal.inforcloudsuite.com/X9K98RYL2D6P5AD4_PRD"},
-                    {"name": "Infor Support", "shortcutKey": "c", "url": "https://customerportal.infor.com/csmcore"}
+                    {"name": "A365", "shortcutKey": "s", "url": "https://admin.cloud.microsoft/?login_hint=robert.murph%40choosenile.com&source=applauncher#/homepage"},
+                    {"name": "Entra", "shortcutKey": "x", "url": "https://entra.microsoft.com/#view/Microsoft_AAD_IAM/EntraLanding.ReactView?Microsoft_AAD_IAM_legacyAADRedirect=true"},
+                    {"name": "Exchange", "shortcutKey": "c", "url": "https://admin.exchange.microsoft.com/#/"}
                 ]
             },
             {
-                "groupName": "Great Star",
+                "groupName": "Productivity",
                 "items":[
-                    {"name": "SAP Home", "shortcutKey": "a", "url": "https://my433127.s4hana.cloud.sap/"},
-                    {"name": "SAP Support", "shortcutKey": "q", "url": "https://gstu.atlassian.net/servicedesk/customer/user/requests?page=1&reporter=all&statuses=open"}
+                    {"name": "Adobe", "shortcutKey": "a", "url": "https://adminconsole.adobe.com/2A7B4586619E9ADB0A495F85@AdobeOrg/overview"},
+                    {"name": "Asana", "shortcutKey": "q", "url": "https://app.asana.com/admin/1155700125982772/members"},
+                    {"name": "Zoom", "shortcutKey": "z", "url": "https://zoom.us/myhome"}
                 ]
             },
             {
-                "groupName": "Astronomer",
+                "groupName": "Network",
                 "items":[
-                    {"name": "Home", "shortcutKey": "z", "url": "https://cloud.astronomer.io/clj7oy01y00ni01nk0hxrs3vp/deployments"}
+                    {"name": "Unifi", "shortcutKey": "z", "url": "https://unifi.ui.com/"},
+                    {"name": "Verkada", "shortcutKey": "v", "url": "https://terra-rose.command.verkada.com/access/users"}
                 ]
             }
         ]
