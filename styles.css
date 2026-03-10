@@ -11,7 +11,7 @@ body {
     padding: 0;
     margin: 0;
 
-    background: var(--bg-image);
+    background: var(--bg2-image);
     background-color: var(--bg-color);
     background-size: cover;
     color: var(--text-color);
