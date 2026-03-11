@@ -70,8 +70,8 @@ const MASTER_MAP = [
     {
         "groupName": "Tools",
         "items":[
-            {"name": "Fivetran", "shortcutKey": "z", "url": "https://fivetran.com/login"},
-            {"name": "CRON", "shortcutKey": "x", "url": "https://crontab.guru/#0_0_*_*_3"},
+            {"name": "ChatGPT", "shortcutKey": "z", "url": "https://chatgpt.com/"},
+            {"name": "GitHub", "shortcutKey": "x", "url": "https://github.com/"},
             {"name": "Azure Portal", "shortcutKey": "c", "url": "https://portal.azure.com/#home"},
             {"name": "Sharepoint", "shortcutKey": "q", "url": "https://terrarose.sharepoint.com/_layouts/15/sharepoint.aspx"},
             {"name": "Code Beautify", "shortcutKey": "e", "url": "https://codebeautify.org/"},
