@@ -22,6 +22,7 @@ const MASTER_MAP = [
                     {"name": "A365", "shortcutKey": "s", "url": "https://admin.cloud.microsoft/?login_hint=robert.murph%40choosenile.com&source=applauncher#/homepage"},
                     {"name": "Entra", "shortcutKey": "x", "url": "https://entra.microsoft.com/#view/Microsoft_AAD_IAM/EntraLanding.ReactView?Microsoft_AAD_IAM_legacyAADRedirect=true"},
                     {"name": "Exchange", "shortcutKey": "c", "url": "https://admin.exchange.microsoft.com/#/"}
+                    {"name": "Apple", "shortcutKey": "a", "url": "https://business.apple.com/#/main/users"}
                 ]
             },
             {
