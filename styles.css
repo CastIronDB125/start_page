@@ -3,12 +3,12 @@
 
 :root {
     --bg-color: #07131d;
-    --text-color: #eaf7ff;
-    --muted-text: rgba(234, 247, 255, 0.82);
-    --accent: #67dfff;
-    --accent-soft: rgba(103, 223, 255, 0.35);
+    --text-color: #f2f8fc;
+    --muted-text: rgba(242, 248, 252, 0.82);
+    --accent: #6fd8ff;
+    --accent-soft: rgba(111, 216, 255, 0.28);
     --panel-bg: rgba(7, 20, 32, 0.50);
-    --panel-border: rgba(103, 223, 255, 0.28);
+    --panel-border: rgba(111, 216, 255, 0.22);
     --panel-shadow: rgba(0, 0, 0, 0.35);
     --bg-image: url("assets/bg6.png");
     --SHORTCUT_TIMEOUT: 1.5s;
@@ -62,7 +62,7 @@ body {
     font-weight: 200;
     font-size: clamp(1.5rem, 2.4vw, 2.2rem);
     margin: 0;
-    color: rgba(103, 223, 255, 0.92);
+    color: rgba(111, 216, 255, 0.78);
     text-shadow: 0 0 12px rgba(103, 223, 255, 0.22);
 }
 
@@ -99,8 +99,8 @@ body {
 
     background: linear-gradient(
         180deg,
-        rgba(18, 40, 58, 0.42) 0%,
-        rgba(7, 20, 32, 0.56) 100%
+        rgba(10, 18, 28, 0.62) 0%,
+        rgba(5, 11, 19, 0.72) 100%
     );
     border: 1px solid var(--panel-border);
     border-radius: 18px;
