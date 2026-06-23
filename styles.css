@@ -10,7 +10,7 @@
     --panel-bg: rgba(7, 20, 32, 0.50);
     --panel-border: rgba(217, 179, 108, 0.22);
     --panel-shadow: rgba(0, 0, 0, 0.35);
-    --bg-image: url("assets/bg6.png");
+    --bg-image: url("assets/bg9.jpg");
     --SHORTCUT_TIMEOUT: 1.5s;
 }
 
@@ -29,10 +29,10 @@ body {
 
     background-color: var(--bg-color);
     background-image:
-        linear-gradient(rgba(2, 10, 18, 0.48), rgba(2, 10, 18, 0.58)),
+        linear-gradient(rgba(2, 6, 8, 0.55), rgba(2, 6, 8, 0.55)),
         var(--bg-image);
     background-size: cover;
-    background-position: center center;
+    background-position: center top;
     background-repeat: no-repeat;
     background-attachment: fixed;
 
