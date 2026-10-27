@@ -17,26 +17,28 @@ const MASTER_MAP = [
         "groupName": "Admin",
         "subGroups": [
             {
-                "groupName": "Microsoft",
+                "groupName": "Account Management",
                 "items":[
                     {"name": "A365", "shortcutKey": "s", "url": "https://admin.cloud.microsoft/?login_hint=robert.murph%40choosenile.com&source=applauncher#/homepage"},
+                    {"name": "Apple", "shortcutKey": "a", "url": "https://business.apple.com/#/main/users"}
                     {"name": "Entra", "shortcutKey": "x", "url": "https://entra.microsoft.com/#view/Microsoft_AAD_IAM/EntraLanding.ReactView?Microsoft_AAD_IAM_legacyAADRedirect=true"},
                     {"name": "Exchange", "shortcutKey": "c", "url": "https://admin.exchange.microsoft.com/#/"},
-                    {"name": "Apple", "shortcutKey": "a", "url": "https://business.apple.com/#/main/users"}
                 ]
             },
             {
                 "groupName": "Productivity",
                 "items":[
-                    {"name": "Adobe", "shortcutKey": "a", "url": "https://adminconsole.adobe.com/2A7B4586619E9ADB0A495F85@AdobeOrg/overview"},
+                    {"name": "Adobe", "shortcutKey": "e", "url": "https://adminconsole.adobe.com/2A7B4586619E9ADB0A495F85@AdobeOrg/overview"},
                     {"name": "Asana", "shortcutKey": "q", "url": "https://app.asana.com/admin/1155700125982772/members"},
+                    {"name": "NetSuite", "shortcutKey": "n", "url": "https://6751627.app.netsuite.com/app/login/secure/enterpriselogin.nl?c=6751627&whence="},
                     {"name": "Zoom", "shortcutKey": "z", "url": "https://zoom.us/myhome"}
                 ]
             },
             {
                 "groupName": "Network",
                 "items":[
-                    {"name": "Unifi", "shortcutKey": "z", "url": "https://unifi.ui.com/"},
+                    {"name": "Deposco", "shortcutKey": "l", "url": "https://nile-ua.deposco.com/deposco/login"},
+                    {"name": "Unifi", "shortcutKey": "u", "url": "https://unifi.ui.com/"},
                     {"name": "Verkada", "shortcutKey": "v", "url": "https://terra-rose.command.verkada.com/access/users"}
                 ]
             }
@@ -59,9 +61,8 @@ const MASTER_MAP = [
             {
                 "groupName": "Soapbox",
                 "items":[
-                    {"name": "Deployment", "shortcutKey": "z", "url": "https://merchant-labs.astronomer.run/dzor8z0d/home"},
-                    {"name": "Local Instance", "shortcutKey": "z", "url": "http://localhost:8080/"},
-                    {"name": "Cosmos", "shortcutKey": "x", "url": "https://portal.azure.com/#@terrarose.com/resource/subscriptions/6d4d748d-18c9-4126-a3b6-9c5cf87fb739/resourceGroups/SoapBox/providers/Microsoft.DocumentDb/databaseAccounts/mlabs/overview"},
+                    {"name": "Airflow", "shortcutKey": "z", "url": "https://clj7p8mee14757151i2rzzor8z0d.0d.astronomer.run/dzor8z0d/dags?tags=Walmart+Reporting"},
+                    {"name": "CosmosDB", "shortcutKey": "x", "url": "https://portal.azure.com/#@terrarose.com/resource/subscriptions/6d4d748d-18c9-4126-a3b6-9c5cf87fb739/resourceGroups/SoapBox/providers/Microsoft.DocumentDb/databaseAccounts/mlabs/overview"},
                     {"name": "Blob Storage", "shortcutKey": "c", "url": "https://portal.azure.com/#@terrarose.com/resource/subscriptions/6d4d748d-18c9-4126-a3b6-9c5cf87fb739/resourceGroups/SoapBox/providers/Microsoft.Storage/storageAccounts/soapbox/overview"},
                     {"name": "Reports", "shortcutKey": "q", "url": "https://terrarose.sharepoint.com/sites/nile/Shared%20Documents/Forms/AllItems.aspx"}
                 ]
