@@ -20,9 +20,9 @@ const MASTER_MAP = [
                 "groupName": "Account Management",
                 "items":[
                     {"name": "A365", "shortcutKey": "s", "url": "https://admin.cloud.microsoft/?login_hint=robert.murph%40choosenile.com&source=applauncher#/homepage"},
-                    {"name": "Apple", "shortcutKey": "a", "url": "https://business.apple.com/#/main/users"}
+                    {"name": "Apple", "shortcutKey": "a", "url": "https://business.apple.com/#/main/users"},
                     {"name": "Entra", "shortcutKey": "x", "url": "https://entra.microsoft.com/#view/Microsoft_AAD_IAM/EntraLanding.ReactView?Microsoft_AAD_IAM_legacyAADRedirect=true"},
-                    {"name": "Exchange", "shortcutKey": "c", "url": "https://admin.exchange.microsoft.com/#/"},
+                    {"name": "Exchange", "shortcutKey": "c", "url": "https://admin.exchange.microsoft.com/#/"}
                 ]
             },
             {
@@ -76,7 +76,7 @@ const MASTER_MAP = [
             {"name": "GitHub", "shortcutKey": "x", "url": "https://github.com/"},
             {"name": "Azure Portal", "shortcutKey": "c", "url": "https://portal.azure.com/#home"},
             {"name": "Sharepoint", "shortcutKey": "q", "url": "https://terrarose.sharepoint.com/_layouts/15/sharepoint.aspx"},
-            {"name": "Code Beautify", "shortcutKey": "e", "url": "https://codebeautify.org/"},
+            {"name": "Code Beautify", "shortcutKey": "e", "url": "https://codebeautify.org/"}
         ]
     }
 ]
